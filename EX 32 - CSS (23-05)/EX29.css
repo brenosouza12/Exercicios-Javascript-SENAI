@@ -1,0 +1,111 @@
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    margin: 0px;
+    font-family: 'Roboto',sans-serif;
+}
+
+#container{
+    height: 100%;
+    display: flex;
+       
+}
+#esquerda{
+    height: 100%;
+    width: 50%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#direita{
+    height: 100%;
+    width: 50%;
+    background-color: orangered;
+}
+
+#esquerda-cima{
+    height: 10%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#singIn{
+    height: 5%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+    
+}
+#redesS{
+    height: 20%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+#emailSenha{
+    height: 45%;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#esquerda-baixo{
+    height: 20%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+#bt1{
+
+background-image: url(01b-icon.png);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+#bt2{
+
+    background-image: url(01ig-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#bt3{
+
+    background-image: url(01twitter-icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.btn{
+    height:55%;
+    width: 17%;
+    border-radius: 100%;
+    border: 0px;
+    
+}
+
+.S{
+    height: 15% ;
+    width: 20%;
+    background-color: coral;
+    border-radius: 5px;
+    border: 0px;
+
+}
+   
+
